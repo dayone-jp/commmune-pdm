@@ -1,8 +1,8 @@
 [submodule "code/commmune"]
 	path = code/commmune
-	url = https://github.com/dayone-jp/commmune.git
+	url = https://github.com/dayone-jp/commune
 	branch = main
 [submodule "schema/commmune-dbt"]
-  path = schema/commmune-dbt
-  url = https://github.com/dayone-jp/commmune-dbt
+	path = schema/commmune-dbt
+	url = https://github.com/dayone-jp/commmune-dbt
   branch = main
