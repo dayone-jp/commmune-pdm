@@ -1,0 +1,38 @@
+#---- サブモジュールのキャッシュ無視例 (必要なら) ------------------
+code/.git
+
+#---- Cursorユーザーいる場合、 Rules -------------------------------------------------
+# デフォルトで全 .mdc を無視
+# .cursor/
+# ただし shared-*.mdc, mcp.json だけ追跡する
+# !.cursor/rules/shared-*.mdc
+# !.cursor/mcp.json
+
+#---- VS Code ローカル設定を無視したい場合の例 ---------------------
+# .vscode に追加のローカルファイルができても無視する
+.vscode/*
+# ただしリポジトリで共有するファイルは除外取り消し
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+#---- notes --------------------------------------------------------
+notes/*
+!notes/.gitkeep
+
+#---- resources -----------------------------------------------------
+resources/*
+!resources/.gitkeep
+
+#---- OS/Editor 一般 -----------------------------------------------
+.DS_Store
+Thumbs.db
+
+# Claude Commands
+#---- PdM用に共有したいcommandはignoreから除外
+.claude/
+!.claude/commands/.gitkeep
+!.claude/commands/spec-*.md
+# ローカル設定ファイルは無視
+.claude/settings.local.json
+
