@@ -1,8 +1,8 @@
-[submodule "code/commune"]
-	path = code/commune
-	url = https://github.com/LayerXcom/commune.git
+[submodule "code/commmune"]
+	path = code/commmune
+	url = https://github.com/dayone-jp/commmune.git
 	branch = main
-[submodule "code/commune-webapps"]
-	path = code/commune-webapps
-	url = https://github.com/LayerXcom/commune-webapps.git
-	branch = main
+[submodule "schema/commmune-dbt"]
+  path = schema/commmune-dbt
+  url = https://github.com/dayone-jp/commmune-dbt
+  branch = main
