@@ -1,0 +1,8 @@
+[submodule "code/commune"]
+	path = code/commune
+	url = https://github.com/LayerXcom/commune.git
+	branch = main
+[submodule "code/commune-webapps"]
+	path = code/commune-webapps
+	url = https://github.com/LayerXcom/commune-webapps.git
+	branch = main
