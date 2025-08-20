@@ -36,3 +36,12 @@ Thumbs.db
 # ローカル設定ファイルは無視
 .claude/settings.local.json
 
+#---- product-spec -----------------------------------------------------
+.product-spec/specs/
+!.product-spec/specs/spec.json
+
+#---- schema -----------------------------------------------------
+schema/
+
+#---- code -----------------------------------------------------
+code/
