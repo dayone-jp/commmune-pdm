@@ -30,9 +30,7 @@ Thumbs.db
 
 # Claude Commands
 #---- PdM用に共有したいcommandはignoreから除外
-.claude/
-!.claude/commands/.gitkeep
-!.claude/commands/spec-*.md
+!.claude/
 # ローカル設定ファイルは無視
 .claude/settings.local.json
 
